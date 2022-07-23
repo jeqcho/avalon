@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Avalon analyser</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style type="text/css">
+    .output {
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <div id="main" class="container mt-3">
+    <h1>Avalon Analyser</h1>
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Number of players</span>
+      </div>
+      <input type="number" class="form-control" id="num_players">
+      <div class="input-group-append">
+        <button class="btn btn-success" id="num_players_submit">Submit</button>
+      </div>
+    </div>
+    <div id="player_name_query">
+    </div>
+    <div id="rounds">
+      <div id="round_0"></div>
+      <div id="round_1"></div>
+      <div id="round_2"></div>
+      <div id="round_3"></div>
+      <div id="round_4"></div>
+    </div>
+  </div>
+  <script type="text/javascript" src="scripts/medium.js">
+  </script>
+  <script type="text/javascript" src="scripts/avalon.js"></script>
+</body>
+</html>
